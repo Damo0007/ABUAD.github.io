@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+}
+header img{
+    height: 70px;
+    width: 70px;
+    padding: 10px 5px 10px 10px;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.head span{
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.head i{
+    letter-spacing: 7px;
+    font-style: italic;
+    font-weight:300;
+}
+header p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.menu{
+    background-color:steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    /* position: absolute; */
+}
+.menu p{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.big{
+    height:209vh;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home{
+    width: 93%;
+    z-index: 1;
+    background-color:beige;
+    position:absolute;
+    top: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.dashboard{
+    background-color:gainsboro;
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 5px;
+}
+.dashboard p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dashboard p span{
+    font-weight:200;
+    color:darkslategray;
+}
+.third{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+}
+.third p{
+    font-size: 30px;
+    font-weight: 500;
+}
+.third p span{
+    font-size: 20px;
+    font-weight:lighter;
+}
+.outstand{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+}
+.outstand p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.paid{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+}
+.paid p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.paid p span{
+    font-size: 18px;
+}
+.Total{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+}
+.Total p{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.Total p span{
+    font-size: 18px;
+}
+.school{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+}
+.school p{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.school p span{
+    font-size: 18px;
+}
+.GPA{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+}
+.GPA p{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.GPA p span{
+    font-size: 20px;
+}
+.wallet{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+}
+.wallet p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+}
+.wallet p span{
+    font-size: 18px;
+}
+.cgpa{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 4px;
+}
+.cgpa p{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+.cgpa p span{
+    font-size: 20px;
+}
+.line{
+    background-color: white;
+    width: 90%;
+    height: 3px;
+    margin: 20px 0 20px 0;
+}
+.info{
+    height:fit-content;
+    background-color: white;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mide{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 20px 0 15px 0;
+}
+.mide span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+}
+.abuad{
+    background-color:lavender;
+    height:max-content;
+    width: 98%;
+    border-top: 1px solid bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    width: 51%;
+    border-radius: 100%;
+    border: 7px gray solid;
+}
+.pic img{
+    height: 130px;
+    width: 98%;
+    border-radius: 100%;
+    position: relative;
+}
+.name{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.matric{
+    background-color:orange;
+    color: white;
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.dept{
+    font-size: 18px;
+    margin: 15px 0 20px 0;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dept span{
+    font-weight: normal;
+}
+.prog{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.prog span{
+    font-weight: normal;
+}
